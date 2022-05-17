@@ -3,6 +3,7 @@ package kr.nepp.intent_20220516
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_edit_nickname.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -41,5 +42,7 @@ class MainActivity : AppCompatActivity() {
 //            2. 편도 X, 왕복으로 간다고 명시.
             startActivityForResult(myIntent, REQ_CODE_NICKNAME)
         }
+
+
     }
 }
